@@ -1,1 +1,1 @@
-This weeek I have added activities.html which iss secound page for my website. On this page amade different tables to allow for a better more dynamic user experince. I added my ejail the webiste for contatcing me on the website. I also added a way to submit request for service.
+This weeek I have added activities.html which is secound page for my website. On this page amade different tables to allow for a better more dynamic user experince. I added my ejail the webiste for contatcing me on the website. I also added a way to submit request for service.
