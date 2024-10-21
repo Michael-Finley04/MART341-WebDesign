@@ -1,1 +1,143 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav .logo img {
+    max-width: 120px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.hero video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.hero-overlay h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.hero-overlay p {
+    font-size: 1.3em;
+}
+
+/* Case Studies Section */
+.case-studies {
+    padding: 2em;
+    background: #fff;
+}
+
+.case-study-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2em;
+}
+
+.case-study {
+    background: #f9f9f9;
+    padding: 1.5em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.case-study h3 {
+    margin: 1em 0;
+}
+
+/* Resources Section */
+.resources {
+    padding: 2em;
+    background: #fff;
+}
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2em;
+}
+
+.resource {
+    background: #f9f9f9;
+    padding: 1.5em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.resource h3 {
+    margin: 1em 0;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
 
