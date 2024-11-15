@@ -15,7 +15,7 @@ This week, I worked on the **homepage (index.html)**.
 5. **Borders:**
    Borders were added around images to highlight them without cluttering the design.
 
-## Why These Techniques?
+## The Techniques
 These techniques align with the minimalist aesthetic of the site while improving visual hierarchy and balance.
 
 ## Future Improvements
