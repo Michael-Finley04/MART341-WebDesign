@@ -1,8 +1,4 @@
-**Crafting a Standout Resume: How to Create a Professional Resume Step-by-Step**:
-
----
-
-# Crafting a Standout Resume: How to Create a Professional Resume Step-by-Step
+ Crafting a Standout Resume: How to Create a Professional Resume Step-by-Step
 
 ### Materials Needed:
 - Computer with text editing software (e.g., Microsoft Word, Google Docs, or Canva)
