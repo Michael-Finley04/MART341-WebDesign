@@ -9,4 +9,16 @@ I learned a deeper understanding of the internet, which began it roots back in 1
 **Bold** **text** 
 
 *Italicized* *text*
+  
+Here’s a list of Markdown elements I practiced:  
+
+1. **Headings**  
+2. **Text formatting** (bold and italic)  
+3. **Lists**  
+4. **Links**  
+5. **Images**  
+
+### Example Image  
+
+![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)  
 
