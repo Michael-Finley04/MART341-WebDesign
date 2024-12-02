@@ -1,6 +1,6 @@
 Michael
 
-Assignment 3
+*Assignment 3*
 
 This is my repo for Assignment 3
 
