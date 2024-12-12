@@ -26,11 +26,10 @@ Dynamic Solutions is a professional business portfolio website designed to showc
 - Further custom fonts could be added if needed in the future for enhanced branding.
 
 ### 5. **Incorporation of At Least One Image**
-- The homepage (index.html) features a hero section with a welcome message, along with a placeholder for an image that could represent the business. (This can be replaced with a real image.)
+- The homepage (index.html) features a hero section with a welcome message, along with a placeholder for an image that could represent the business. 
 
 ### 6. **Embedded Media Element (Video, Audio, etc.)**
-- The site is designed to be flexible, and a video or Google Maps embed could be added to the `about.html` or `contact.html` pages if needed in the future. For now, we have focused on text content and the structure.
-
+- The site is designed to be flexible, and a video or Google Maps embed could be added to the `about.html` or `contact.html` pages.
 ### 7. **Structural and Semantic HTML Markup**
 - The HTML structure includes semantic tags like `<header>`, `<nav>`, `<main>`, `<footer>`, and `<section>`, which enhance both accessibility and search engine optimization (SEO).
 - Proper use of heading tags (h1, h2, etc.) provides clarity for both users and search engines.
