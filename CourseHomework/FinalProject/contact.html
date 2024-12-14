@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us - Dynamic Solutions</title>
+  <title>Dynamic Solutions | Contact</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,46 +19,28 @@
   </header>
 
   <main>
-    <section class="contact-hero">
-      <h1>Get in Touch</h1>
-      <p>We’d love to hear from you! Reach out using the form below or connect with us on social media.</p>
-    </section>
+    <section class="contact">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you! Reach out to us using the form below or through our contact details.</p>
+      
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-    <section class="contact-form colorful-background">
-      <h2>Contact Us</h2>
-      <form action="#">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your Name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Your Email" required>
-        </div>
-        <div class="form-group">
-          <label for="phone">Phone</label>
-          <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-        </div>
-        <button type="submit" class="fun-button">Send Message</button>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="cta-button">Send Message</button>
       </form>
-    </section>
 
-    <section class="map colorful-border">
-      <h2>Find Us</h2>
-      <iframe src="https://maps.google.com/maps?q=New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
-    </section>
-
-    <section class="social-media vibrant-icons">
-      <h2>Connect With Us</h2>
-      <div class="social-icons">
-        <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
-        <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
-        <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
-        <a href="#"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
+      <div class="contact-details">
+        <h2>Our Office</h2>
+        <p>123 Business Ave,<br> Cityville, CO 54321</p>
+        <p>Email: info@dynamicsolutions.com</p>
+        <p>Phone: (123) 456-7890</p>
       </div>
     </section>
   </main>
