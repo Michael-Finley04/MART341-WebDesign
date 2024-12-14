@@ -1,80 +1,103 @@
-/* Hero Section */
-.contact-hero {
-  text-align: center;
-  background: linear-gradient(45deg, #6a5acd, #ffa07a);
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  color: #333;
+  background-color: #f4f4f9;
+}
+
+header {
+  background-color: #003366;
+  padding: 1rem 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
   color: white;
-  padding: 2rem 0;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
 }
 
-.contact-hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.contact-hero p {
-  font-size: 1.2rem;
-}
-
-/* Contact Form Section */
-.colorful-background {
-  background: #fdfd96;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form h2 {
-  text-align: center;
-  color: #ff4500;
-}
-
-.fun-button {
-  background: linear-gradient(45deg, #ff6347, #ff4500);
-  color: white;
-  font-size: 1.2rem;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  cursor: pointer;
-  transition: transform 0.2s;
+nav ul li a.active,
+nav ul li a:hover {
+  background-color: #ff4500;
   border-radius: 5px;
 }
 
-.fun-button:hover {
-  transform: scale(1.1);
-}
-
-/* Map Section */
-.colorful-border {
-  padding: 2rem;
-  border: 5px solid #6a5acd;
-  margin-top: 2rem;
-}
-
-.colorful-border h2 {
+/* Hero Section */
+.hero {
   text-align: center;
-  color: #6a5acd;
-}
-
-/* Social Media Section */
-.vibrant-icons {
-  background: linear-gradient(45deg, #ff7f50, #f08080);
+  background: linear-gradient(135deg, #003366, #00509e);
   color: white;
-  text-align: center;
-  padding: 2rem;
+  padding: 4rem 1rem;
 }
 
-.vibrant-icons h2 {
-  font-size: 2rem;
+.hero h1 {
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 
-.social-icons img {
-  width: 50px;
-  height: 50px;
-  margin: 0 1rem;
-  transition: transform 0.3s;
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
-.social-icons img:hover {
-  transform: scale(1.2);
+.cta-button {
+  background: #ff4500;
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #d93700;
+}
+
+/* Features Section */
+.features {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature {
+  margin: 1rem auto;
+  max-width: 400px;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+  color: #003366;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #003366;
+  color: white;
 }
